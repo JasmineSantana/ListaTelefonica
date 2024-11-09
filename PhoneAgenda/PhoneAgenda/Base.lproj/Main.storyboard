@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PhoneAgenda" customModuleProvider="target" colorLabel="IBBuiltInLabel-Red" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QlD-go-zih">
+                                <rect key="frame" x="152" y="106" width="88" height="88"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="JP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WK2-6A-Vdw" userLabel="iniciasLabel">
+                                        <rect key="frame" x="29" y="27" width="31" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.086274509803921567" green="0.086274509803921567" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="U8U-Vw-uab"/>
+                                    <constraint firstAttribute="height" constant="88" id="pj6-jy-mgv"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Jasmine Paschoal Santana" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CyZ-d0-MSE" userLabel="nameLabel">
+                                <rect key="frame" x="95" y="210" width="203" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="11-98988-0099" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sex-w2-AwS" userLabel="phoneLabel">
+                                <rect key="frame" x="134.66666666666663" y="247" width="124" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="jasmine@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KEQ-e7-Eha" userLabel="emailLabel">
+                                <rect key="frame" x="120" y="284" width="152" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.3529411764705882" green="0.3529411764705882" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="F1rst Tecnologia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Omg-2P-eYs" userLabel="empresaLabel">
+                                <rect key="frame" x="134.66666666666663" y="321" width="124" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.35294117650000001" green="0.35294117650000001" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.086274509803921567" green="0.086274509803921567" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="QlD-go-zih" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="47" id="44x-D7-reE"/>
+                            <constraint firstItem="sex-w2-AwS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="47i-nf-dfZ"/>
+                            <constraint firstItem="sex-w2-AwS" firstAttribute="top" secondItem="CyZ-d0-MSE" secondAttribute="bottom" constant="16" id="8rh-kr-ZQk"/>
+                            <constraint firstItem="CyZ-d0-MSE" firstAttribute="top" secondItem="QlD-go-zih" secondAttribute="bottom" constant="16" id="GJo-UP-qIY"/>
+                            <constraint firstItem="Omg-2P-eYs" firstAttribute="top" secondItem="KEQ-e7-Eha" secondAttribute="bottom" constant="16" id="QaP-JN-xRS"/>
+                            <constraint firstItem="Omg-2P-eYs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SJI-RW-kRo"/>
+                            <constraint firstItem="CyZ-d0-MSE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZmB-Rd-gd8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QlD-go-zih" secondAttribute="trailing" constant="88" id="cdZ-Lr-pS0"/>
+                            <constraint firstItem="QlD-go-zih" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="88" id="eX8-fO-woh"/>
+                            <constraint firstItem="KEQ-e7-Eha" firstAttribute="top" secondItem="sex-w2-AwS" secondAttribute="bottom" constant="16" id="tnQ-0c-L99"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="companyLabel" destination="Omg-2P-eYs" id="EdV-fs-PHj"/>
+                        <outlet property="emailLabel" destination="KEQ-e7-Eha" id="OMb-xF-c0d"/>
+                        <outlet property="initialLabel" destination="WK2-6A-Vdw" id="rxY-OI-FlY"/>
+                        <outlet property="initialsContainerView" destination="QlD-go-zih" id="6uL-8P-RuL"/>
+                        <outlet property="nameLabel" destination="CyZ-d0-MSE" id="yzd-NC-bp0"/>
+                        <outlet property="phoneLabel" destination="sex-w2-AwS" id="EAQ-zb-A8d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
